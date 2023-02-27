@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quiz</title>
+	<link rel="icon" href="images/logo.png">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"> 
+	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+</head>
+
+<body>
+
+<div>
+	 <div id="navbar">
+	    <nav>
+	       <a href="index.html"><img src="images/logo2.png" alt="Logo"></a>
+	       <div class="nav-link">
+	          <ul>
+	             <li><a href="index.html">Home</a> </li>
+	             <li><a href="packages.html">Packages</a> </li>
+	             <li><a href="adventure.html">Adventure</a> </li>
+	             <li><a href="quiz.html">Quiz</a> </li>
+	             <li><a href="svg.html">Sitemap</a> </li>
+	             <li><a href="gallery.html">Gallery</a> </li>
+	             <li><a href="studentDetails.html">Student Details</a> </li>
+	             <li><a href="contact">Contact Us</a> </li>
+	          </ul>
+	       </div>
+	    </nav>
+	 </div>
+</div>
+
+<h1>Quiz</h1>
+
+<input type="button" name="button" value="Attempt Quiz" id="attempt"><br>
+<div id="time">Time Remaining:<br><br>
+	<div id="timer">60 seconds</div>
+</div>
+
+<!--Form for all questions-->
+<form class="container" id="container">
+
+	<div class="question" id="question1">
+		<div>1. What is Ambalangoda famous for? </div><br>
+		<input type="radio" name="q1answers" id="q1a1" value="masks">
+		<label for="q1a1">Masks</label><br>
+		<input type="radio" name="q1answers" id="q1a2" value="paintings">
+		<label for="q1a2">Paintings</label><br>
+		<input type="radio" name="q1answers" id="q1a3" value="sculptures">
+		<label for="q1a3">Sculptures</label><br>
+		<input type="radio" name="q1answers" id="q1a4" value="none">
+		<label for="q1a4">All of the Above</label><br>
+	</div>
+
+	<div class="question" id="question2">
+		<div>2. Which District has an international cricket stadium? </div><br>
+		<input type="radio" name="q2answers" id="q2a1" value="gampaha">
+		<label for="q2a1">Gampaha</label><br>
+		<input type="radio" name="q2answers" id="q2a2" value="galle">
+		<label for="q2a2">Galle</label><br>
+		<input type="radio" name="q2answers" id="q2a3" value="polonnaruwa">
+		<label for="q2a3">Polonnaruwa</label><br>
+		<input type="radio" name="q2answers" id="q2a4" value="badulla">
+		<label for="q2a4">Badulla</label><br>
+	</div>
+
+	<div class="question" id="question3">
+		<div>3. Which of these waterfalls is located in Nuwara-Eliya District?</div><br>
+		<input type="radio" name="q3answers" id="q3a1" value="ravana">
+		<label for="q3a1">Ravana</label><br>
+		<input type="radio" name="q3answers" id="q3a2" value="bamabarakanda">
+		<label for="q3a2">Bambarakanda</label><br>
+		<input type="radio" name="q3answers" id="q3a3" value="dunhinda">
+		<label for="q3a3">Dunhinda</label><br>
+		<input type="radio" name="q3answers" id="q3a4" value="devon">
+		<label for="q3a4">Devon</label><br>
+	</div>
+
+	<div class="question" id="question4">
+		<div class="questionText">
+			<div>4. What is the Buddha statue in the following picture?</div><br>
+			<input type="radio" name="q4answers" id="q4a1" value="samadhi">
+			<label for="q4a1">Samadhi Buddha Statue</label><br>
+			<input type="radio" name="q4answers" id="q4a2" value="maligawila">
+			<label for="q4a2">Maligawila Buddha Statue</label><br>
+			<input type="radio" name="q4answers" id="q4a3" value="giritale">
+			<label for="q4a3">Giritale Buddha Statue</label><br>
+			<input type="radio" name="q4answers" id="q4a4" value="gal-viharaya">
+			<label for="q4a4">Gal-Viharaya Buddha Statue</label><br>
+		</div>
+		<img class="questionImg" src="images/gal_viharaya_800x649.jpeg" alt="question4image">
+	</div>
+
+	<div class="question" id="question5">
+		<div>5. Where does The Elephant Gathering in Sri Lanka take place every year?</div><br>
+		<input type="radio" name="q5answers" id="q5a1" value="yala">
+		<label for="q5a1">Yala National Park</label><br>
+		<input type="radio" name="q5answers" id="q5a2" value="minneriya">
+		<label for="q5a2">Minneriya National Park</label><br>
+		<input type="radio" name="q5answers" id="q5a3" value="udawalawe">
+		<label for="q5a3">Udawalawe National Park</label><br>
+		<input type="radio" name="q5answers" id="q5a4" value="wilpattu">
+		<label for="q5a4">Wilpattu National Park</label><br>
+	</div>
+
+	<div class="question" id="question6">
+		<div>6. How many birds do you think are endemic to Sri Lanka?</div><br>
+		<input type="radio" name="q6answers" id="q6a1" value="41">
+		<label for="q6a1">41</label><br>
+		<input type="radio" name="q6answers" id="q6a2" value="47">
+		<label for="q6a2">47</label><br>
+		<input type="radio" name="q6answers" id="q6a3" value="20">
+		<label for="q6a3">20</label><br>
+		<input type="radio" name="q6answers" id="q6a4" value="33">
+		<label for="q6a4">33</label><br>
+	</div>
+
+	<div class="question" id="question7">
+		<div>7. Which of the following is central highland’s UNESCO world heritage site in Sri Lanka?</div><br>
+		<input type="radio" name="q7answers" id="q7a1" value="sigirya">
+		<label for="q7a1">Lion Rock Sigiriya</label><br>
+		<input type="radio" name="q7answers" id="q7a2" value="dambulla">
+		<label for="q7a2">Dambulla Cave Temple</label><br>
+		<input type="radio" name="q7answers" id="q7a3" value="horton-plains">
+		<label for="q7a3">Horton-Plains Nuwara Eliya</label><br>
+		<input type="radio" name="q7answers" id="q7a4" value="yala">
+		<label for="q7a4">Yala National Park</label><br>
+	</div>
+
+	<div class="question" id="question8">
+		<div>8. How many steps does it take to reach the top of the fortress of Sigiriya?</div><br>
+		<input type="radio" name="q8answers" id="q8a1" value="884">
+		<label for="q8a1">884 Steps</label><br>
+		<input type="radio" name="q8answers" id="q8a2" value="1,021">
+		<label for="q8a2">1,021 Steps</label><br>
+		<input type="radio" name="q8answers" id="q8a3" value="981">
+		<label for="q8a3">981 Steps</label><br>
+		<input type="radio" name="q8answers" id="q8a4" value="1,236">
+		<label for="q8a4">1,236 Steps</label><br>
+	</div>
+
+	<div class="question" id="question9">
+		<div>9. Who was the last King to reign over Sri Lanka? </div><br>
+		<input type="radio" name="q9answers" id="q9a1" value="dutugemunu">
+		<label for="q9a1">King Dutugemunu</label><br>
+		<input type="radio" name="q9answers" id="q9a2" value="kashyapa">
+		<label for="q9a2">King Kashyapa</label><br>
+		<input type="radio" name="q9answers" id="q9a3" value="rajasinha">
+		<label for="q9a3">King Sri Wickrama Rajasinha</label><br>
+		<input type="radio" name="q9answers" id="q9a4" value="parakramabahu">
+		<label for="q9a4">King Parakramabahu the Great</label><br>
+	</div>
+
+	<div class="question" id="question10">
+		<div>10. There's an annual 10-day parade in which a Tusker carries the Tooth Relic of the Buddha. What is this Parade Called?</div><br>
+		<input type="radio" name="q10answers" id="q10a1" value="vesak">
+		<label for="q10a1">Vesak</label><br>
+		<input type="radio" name="q10answers" id="q10a2" value="new-year">
+		<label for="q10a2">Sinhala and Tamil New Year</label><br>
+		<input type="radio" name="q10answers" id="q10a3" value="esala-perahera">
+		<label for="q10a3">Kandy Esala Perahara</label><br>
+		<input type="radio" name="q10answers" id="q10a4" value="thaipongal">
+		<label for="q10a4">Thaipongal</label><br>
+	</div>
+
+	<input type="button" name="button" value="Submit Your Answers" id="submit">
+
+	<!--Results and Summary-->
+	<div id="results">
+		<div id="summary"></div><br>
+		<b>Results</b><br>
+		<div id="feedback1"></div>
+		<div id="feedback2"></div>
+		<div id="feedback3"></div>
+		<div id="feedback4"></div>
+		<div id="feedback5"></div>
+		<div id="feedback6"></div>
+		<div id="feedback7"></div>
+		<div id="feedback8"></div>
+		<div id="feedback9"></div>
+		<div id="feedback10"></div>
+	</div>
+
+</form>
+
+<script src="js/quiz.js"></script>
+
+<!--footer-->
+<footer class="footer">
+	<div class="bottom">
+	    <div class="row">
+	    	<div class="footer-col">	          
+	        <h4>Company</h4>
+            <ul class="footer-ul">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="packages.html">Packages </a></li>
+                <li><a href="adventure.html">Adventure </a></li>
+                <li><a href="quiz.html">Quiz </a></li>
+                <li><a href="svg.html">Sitemap </a></li>
+                <li><a href="gallery.html">Gallery </a></li>
+                <li><a href="studentDetails.html">Student Details </a></li>
+                <li><a href="contact.html">Contact Us </a></li>
+	        </ul>
+	        </div>
+	        <div class="footer-col">
+	        <h4>Packages</h4>
+            <ul class="footer-ul">
+                <li><a href="packages.html">Sigiriya </a></li>
+	            <li><a href="packages.html">Kandy </a></li>
+	            <li><a href="packages.html">Ella </a></li>
+	        </ul>
+	        </div>
+	        <div class="footer-col">
+	        <h4>Adventure</h4>
+	        <ul class="footer-ul">
+	            <li><a href="adventure.html">Hot Air Ballooning </a></li>
+	            <li><a href="adventure.html">Rock Climbing </a></li>
+	            <li><a href="adventure.html">Scuba Diving </a></li>
+	            <li><a href="adventure.html">Whale Watching </a></li>
+	      	</ul>
+	        </div>
+	        <div class="footer-col">
+	        <h4>Contact Info</h4>
+				<div class="social-links">
+	            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+	            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+	            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+	            <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+	        	</div>
+	        </div>
+	    </div>
+	</div>
+</footer> 
+<div class="copyright">
+	<span>Copyright ©2022 All rights reserved</span>
+</div> 
+
+
+<a class="end" href="yasindu.html">&ensp;Page Developer</a>
+<a class="goTop" href="#top"><img src="images/top_arrow.png" width="50" height="50" alt="top"></a>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+/*form*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 80px;
+}
+
+div#navbar\ navbg {
+    background-color: rgba(54, 19, 84);
+}
+
+.page_editor_container {
+    float: right;
+    width: 100px;
+    border-radius: 30px;
+
+}
+
+.page_editor_link {
+    position: fixed;
+    top: 250px;
+    background: #3F1D5C;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.page_editor_link a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.container-child {
+    padding: 100px 0 50px 0;
+}
+}
+
+/*titile*/
+.top-header {
+    font-weight: 700;
+    color: #2d2c2c;
+    text-transform: uppercase;
+
+}
+
+.title_container {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #2d2c2c;
+    font-size: 20px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.frm {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding: 0 200px 100px 200px;
+}
+
+.contact_form_container {
+    margin-top: 30px;
+    background: white;
+    padding: 50px 48px 130px 48px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contact_form {
+    margin-top: 52px;
+    font-size: 0px;
+}
+
+.contact_form_name {
+    width: calc((100% - 30px) / 2);
+    margin-right: 30px;
+}
+
+.contact_form_email {
+    width: calc((100% - 30px) / 2);
+}
+
+.contact_form_subject {
+    width: 100%;
+    margin-top: 11px;
+}
+
+.contact_form_message {
+    height: 126px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-top: 19px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: solid 2px #e1e1e1;
+    padding-top: 11px;
+}
+
+.form_button {
+    padding: 15px;
+    background: #31124b;
+    float: right;
+    color: #fff;
+    font-size: 13px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_field {
+    height: 48px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.text_field {
+    margin-bottom: 20px;
+}
+
+.select_first {
+    display: none;
+}
+
+.user_list_hide {
+    display: none;
+}
+
+.main_form_hide {
+    display: none;
+}
+
+.buttons li {
+    list-style: none;
+    display: inline-block;
+}
+
+.success_msg {
+    color: black;
+}
+
+.success_msg_hide {
+    display: none;
+}

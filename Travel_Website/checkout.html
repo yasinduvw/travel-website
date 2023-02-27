@@ -1,0 +1,96 @@
+<!DOCTYPE Html>
+<html lang="en">
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Checkout</title>
+         <link rel="icon" href="images/logo.png">
+         <link rel="stylesheet" href="css/styles1.css">
+		
+		 
+</head>
+<body>
+
+        <div class="container">
+	    <form id="form">
+		<fieldset>
+		       <legend>Invoice</legend>
+			   
+             <div class="package-group">
+			     <div class="name form-controller">
+				   <label for="fname">First Name</label>
+                   <input type="text" id="fname" placeholder="Smith" autofocus >
+				
+				   <small>Error Message</small>
+				 </div>
+            
+			
+			     <div class="name last-name form-controller">
+				   <label for="lname">Last Name</label>
+                   <input type="text" id="lname" placeholder="Max">
+
+				   <small>Error Message</small>
+				 </div>
+			</div>
+			
+			<div class="package-group form-controller">
+				<label for="email">Email</label>
+				<input type="Email" id="email" placeholder="Max@example.com">
+				<small>Error Message</small>
+				</div>
+				
+			<div class="package-group form-controller">
+                    <label for="address1">Address</label>
+                    <input type="text" id="address1" class="address">
+                    <small>Error Message</small>
+			</div>	
+                
+				
+				
+			<div class="package-group">
+			    <div class="region form-controller">
+			    <label for="country">Living Country:</label>
+                   <select name="country" id="country">
+				           <option value="0">Choose your Country</option>
+                           <option value="Russia">Russia</option>
+                           <option value="India">India</option>
+                           <option value="Germany">Germany</option>
+                           <option value="France">France</option>
+						   <option value="Canada">Canada</option>
+						   <option value="United State">United State</option>
+						   <option value="Australia">Australia</option>
+						   <option value="Switzerland">Switzerland</option>
+						   <option value="Netherlands">Netherlands</option>
+						   <option value="Spain">Spain</option>
+						   <option value="Norway">Norway</option>
+						   <option value="Italy">Italy</option>
+						   <option value="china">China</option>
+						   <option value="Japan">Japan</option>
+						   <option value="SouthKorea">South Korea</option>
+						   <option value="UAE">UAE</option>
+						   <option value="Newzealand">New zealand</option>
+	
+                  </select>
+			      <small>Error Message</small>
+                   <div class="region form-controller">				  
+				         <label for="CheckDate">Check in Date:</label>
+						<input type="date" id="CheckDate" name="Check in Date">
+						<small>Error Message</small>
+				  </div>
+
+                   				  
+              </div>
+          </div>
+		  
+		</fieldset>	
+      </form>
+	  <div class="bill">
+            <h2>Your Cart</h2>
+            <table id="theCart"></table>
+            <button type="submit" form="form" id="checkout" class="checkout">CHECKOUT</button>
+        </div>
+    
+</div>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

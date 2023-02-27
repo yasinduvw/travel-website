@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    background-color: #F0F8FF;
+    font-family: Times New Roman ,serif;
+}
+
+form {
+    padding: 5%;
+    align-self: center;
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+    margin-left: 20px;
+    
+}
+
+fieldset {
+    border-radius: 2px;
+    border: 3px solid #000000;
+}
+
+legend, h2 {
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #7DB0FB;
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+    transition: 0.5s;
+}
+
+input[type="email"], .address  {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 15px;
+}
+
+tr {
+    border: 1px solid #b1b2b5;
+    border-radius: 15px;
+}
+
+tr:hover {
+    background-color: rgba(24, 117, 255, 0.25);
+    transition: 0.8s;
+}
+
+td {
+    padding: 25px 15px;
+}
+
+p {
+    margin: 0 16px;
+}
+
+small {
+    display: block;
+    visibility: hidden;
+}
+
+.package-group {
+    margin-bottom: 25px;
+}
+
+.form-controller {
+    position: relative;
+}
+
+.name, .region {
+    display: inline-block;
+}
+
+.last-name {
+    float: right;
+}
+
+.form-controller.error small {
+    visibility: visible;
+    color: 	#FF0000;
+}
+
+.form-controller.error input {
+    border-color: 	#FF0000;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.25);
+}
+
+.form-controller.error select {
+    border-color: #FF0000;
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.25);
+}
+
+.bill {
+    align-self: center;
+    justify-self: center;
+    background-color: #f7f8f9;
+    padding: 10px 25px 20px;
+    border-radius: 10px;
+}
+
+.total:hover {
+    background-color: initial;
+}
+
+.package-name {
+    font-weight: bold;
+}
+
+.package-qty, .price {
+    color: #b1b2b5;
+}
+
+.total {
+    color: red;
+    font-weight: bold;
+}
+
+.checkout {
+    grid-area: bill;
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: #87CEFA;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.checkout:hover {
+    background-color: #26c100;
+    transition: 0.5s;
+}
+
+.checkout:active {
+    color: #f7f8f9;
+    transition: 0s;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100vh;
+    grid-template-columns: 60vw 40vw;
+    grid-template-areas: "form" "bill";
+}
+
+#fname, #lname, {
+    width: 200px;
+    height: 25px;
+}

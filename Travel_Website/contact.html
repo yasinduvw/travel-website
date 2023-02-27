@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Contact Us</title>
+      <link rel="icon" href="images/logo.png">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/form.css">
+      <link rel="stylesheet" href="css/back_to_top.css">
+   </head>
+   <body>
+      <!-- back to top arrow -->
+      <div class="scrollTop" onclick="scrollToTop();">
+         <img src="images/up.svg" alt="top_Arrow">
+      </div>
+
+      <!-- page editor -->
+      <div class="page_editor_container">
+         <div class="page_editor_link">
+            <a href="about.html">Page Editor</a>
+         </div>
+      </div>
+      
+      <!--navbar-->
+      <div id="navbar">
+         <nav>
+            <a href="index.html"><img src="images/logo2.png" alt="logo"></a>
+            <div class="nav-link">
+               <ul>
+                  <li><a href="index.html">Home</a> </li>
+                  <li><a href="packages.html">Packages</a> </li>
+                  <li><a href="adventure.html">Adventure</a> </li>
+                  <li><a href="quiz.html">Quiz</a> </li>
+                  <li><a href="svg.html">Sitemap</a> </li>
+                  <li><a href="gallery.html">Gallery</a> </li>
+                  <li><a href="studentDetails.html">Student Details</a> </li>
+                  <li><a href="contact.html">Contact Us</a> </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <!--navbar-->
+
+      <div class="title_container">
+         <h1 class="top-header">Contact Us</h1>
+      </div>
+      <div class="container">
+         <!-- Form section-->
+         <div class="frm">
+            <div class="contact_form_container">
+               <div class="success_msg success_msg_hide" id="success_msg">
+                  <div class="title">We received your message!</div>
+                  <span>Thank You!</span>
+                  <form action="contact.html" method="get">
+                     <button class="form_button">Go Back</button> 
+                  </form>
+               </div>
+               <div class="user_details user_list_hide" id="user_details">
+                  <div class="title">Your Informations</div>
+                  <table>
+                     <tr>
+                        <td>Name</td>
+                        <td> &nbsp; : &nbsp;<strong><span id="name"></span></strong></td>
+                     </tr>
+                     <tr>
+                        <td>Email</td>
+                        <td> &nbsp; : &nbsp;<strong><span id="email"></span></strong></td>
+                     </tr>
+                     <tr>
+                        <td>Subject</td>
+                        <td> &nbsp; : &nbsp;<strong><span id="subject"></span></strong></td>
+                     </tr>
+                     <tr>
+                        <td>Message</td>
+                        <td> &nbsp; : &nbsp;<strong><span id="message"></span></strong></td>
+                     </tr>
+                  </table>
+                  <ul class="buttons">
+                     <li><button class="form_button" onclick="editForm()">Edit</button></li>
+                     <li><button class="form_button" onclick="sendMsg()">Send</button></li>
+                  </ul>
+               </div>
+               <div class="main_form" id="main_form">
+                  <div class="title" id="title">Get in touch</div>
+                  <form action="mailto:nipun.20210239@iit.ac.lk" method="post" id="contact_form" class="contact_form" name="contact_form">
+                     <input type="text" name="name" id="conName" class="contact_form_name input_field"  placeholder="Name">
+                     <input type="text" name="email" id="conEmail" class="contact_form_email input_field"  placeholder="E-mail">
+                     <select name="subject" id="conSubject" class="contact_form_subject input_field" form="contact_form">
+                        <option class="select_first" value="default">Subject</option>
+                        <option value="Packages">Packages</option>
+                        <option value="Payment">Payment</option>
+                        <option value="Tours">Tours</option>
+                        <option value="Others">Others</option>
+                     </select>
+                     <textarea name="message" id="conMessage" class="text_field contact_form_message"  rows="4" placeholder="Message"></textarea>
+                  </form>
+                  <button class="form_button" onclick="validateForm()">View Query</button>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!--footer-->
+      <footer class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="footer-col">
+                  <h4>Menu</h4>
+                  <ul class="footer-ul">
+                     <li><a href="index.html">Home </a></li>
+                     <li><a href="packages.html">Packages </a></li>
+                     <li><a href="adventure.html">Adventure </a></li>
+                     <li><a href="quiz.html">Quiz </a></li>
+                     <li><a href="svg.html">Sitemap </a></li>
+                     <li><a href="gallery.html">Gallery </a></li>
+                     <li><a href="studentDetails.html">Student Details </a></li>
+                     <li><a href="contact.html">Contact Us </a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Packages</h4>
+                  <ul class="footer-ul">
+                     <li><a href="packages.html">Sigiriya </a></li>
+                     <li><a href="packages.html">Kandy </a></li>
+                     <li><a href="packages.html">Ella </a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Adventure</h4>
+                  <ul class="footer-ul">
+                     <li><a href="adventure.html">Hot Air Ballooning </a></li>
+                     <li><a href="adventure.html">Rock Climbing </a></li>
+                     <li><a href="adventure.html">Scuba Diving </a></li>
+                     <li><a href="adventure.html">Whale Watching </a></li>
+                  </ul>
+               </div>
+               <div class="footer-col">
+                  <h4>Contact Info</h4>
+                  <div class="social-links">
+                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                     <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <div class="copyright">
+         <span>Copyright ©2022 All rights reserved</span>
+      </div>
+      <!-- End Footer -->
+      
+      <script src="js/home.js"></script>
+      <script src="js/form.js"></script>
+      <script src="js/back_to_top.js"></script>
+   </body>
+</html>

@@ -1,0 +1,110 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+	
+}
+
+.end {
+	box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+	border-radius: 10px;
+	width: 145px;
+	height: 25px;
+	text-decoration: none;
+	position: fixed;
+	bottom: 300px;
+	right: -7px;
+	background: rgba(54, 19, 84);
+	color: white;
+}
+
+h1 {
+	margin: 50px 0px 50px 0px;	
+	color: black;
+	text-align: center;
+}
+
+.titlebar {
+	margin: -8px;
+	height: 70px;
+	background-color: rgba(54, 19, 84);
+}
+
+.logo {
+	height: 50px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+}
+
+.siteName {
+	color: white;
+	margin-left: 200px;
+}
+
+.studentimg {
+	width: 200px;
+	margin-bottom: -5px;
+	border-radius: 15px;
+}
+
+.student {
+	box-shadow: rgba(149, 157, 165, 1.0) 0px 8px 24px;
+	margin: 0px 10px 0px 10px;
+	float: left;
+	padding: 10px;
+	border-radius: 25px;
+	text-align: center;
+	background-color: white;
+}
+
+.student:hover {
+	background-color: rgba(54, 19, 84);;
+	transform: scale(1.1,1.1);
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+
+#details {
+	box-shadow: rgba(149, 157, 165, 1.0) 0px 8px 24px;
+	border-radius: 25px;
+	width: 940px;
+	height: 55px;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	position: relative;
+	top: 20px;
+	text-align: center;
+}
+
+/*backToTopButton*/
+ .goTop {
+     height: 50px;
+     width: 50px;
+     background: red;
+     right: 20px;
+     bottom: 20px;
+     position: fixed;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 50px;
+     font-size: 22px;
+     transition: 0.5s;
+}
+ .goTop a {
+     color: white;
+     display: block;
+}
+ .goTop:hover {
+     background: rgb(203, 15, 209);
+     transform: scale(1);
+}
+/*end back to top button*/
+

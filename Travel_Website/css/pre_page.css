@@ -1,0 +1,31 @@
+body{
+ background-image:url('../images/Sri.jpg');
+ background-size:cover;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-item: center;
+ height: 80vh;
+
+
+}
+div{
+	border: 5px solid black;
+    border-radius: 50px;
+    color: black;
+    padding: 80px;
+	text-align:center;
+}
+}
+li {
+    line-height: 3;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+h2{
+    margin-bottom:50px;
+    text-align: center;
+}
